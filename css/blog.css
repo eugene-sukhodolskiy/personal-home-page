@@ -1,0 +1,29 @@
+.blog-item{
+}
+
+.blog-title{
+    font-size: 23px;
+    padding: 10px 0;
+    color: black;
+}
+
+.blog-thumb{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog-thumb img{
+    width: inherit;
+    height: auto;
+}
+
+.blog-content{
+    font-size: 16px;
+    color: #555;
+    line-height: 25px;
+}
+
+.blog-link{
+    margin-top: 10px;
+}

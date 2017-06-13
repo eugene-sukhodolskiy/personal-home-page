@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victor Smith</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bar.css" type="text/css">
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+    <link rel="stylesheet" href="css/home.css" type="text/css">
+    <link rel="stylesheet" href="css/about.css" type="text/css">
+    <link rel="stylesheet" href="css/services.css" type="text/css">
+    <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+    <link rel="stylesheet" href="css/blog.css" type="text/css">
+    <link rel="stylesheet" href="css/victor-popup.css" type="text/css">
+    
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/parallax.min.js"></script>
+    <script type="text/javascript" src="js/liLanding.js"></script>
+    <script type="text/javascript" src="js/victor-popup.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    
+</head>
+<body>
+ 
+    <!-- HelloPreload http://hello-site.ru/preloader/ -->
+    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;background: #22A7F0 url(http://hello-site.ru//main/images/preloads/oval.svg) center center no-repeat;background-size:86px;}</style>
+    <div id="hellopreloader"><div id="hellopreloader_preload"></div></div>
+    <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},500);};</script>
+    <!-- HelloPreload http://hello-site.ru/preloader/ --> 
+    
+<!--
+    <div class="big-image-container">
+        <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+        <div class="big-image" style="background-image: url('img/portfolio/2.jpg')"></div>
+    </div>
+-->
+  
+    <header class="header">
+        <button class="mob-nav"><i class="fa fa-bars"></i></button>
+       <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 brand-logo">Victor Smith</div>
+            <nav class="col-md-9 main">
+                <a class="l-page" href="#home">Home</a><a class="l-page" href="#about">About</a><a class="l-page" href="#services">Services</a><a class="l-page" href="#portfolio">Portfolio</a><a class="l-page" href="#blog">Blog</a><a class="l-page" href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <nav class="mobile">
+        <ul>
+            <li><a href="#home" class="l-page"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#about" class="l-page"><i class="fa fa-user"></i>About</a></li>
+            <li><a href="#services" class="l-page"><i class="fa fa-gears"></i>Services</a></li>
+            <li><a href="#portfolio" class="l-page"><i class="fa fa-th-large"></i>Portfolio</a></li>
+            <li><a href="#blog" class="l-page"><i class="fa fa-rss"></i>Blog</a></li>
+            <li><a href="#contact" class="l-page"><i class="fa fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home" class="landingItem page parallax-container" data-parallax="scroll" data-image-src="img/home.jpg">
+        <a href="#about" class="l-page arrow"><i class="fa fa-long-arrow-down"></i></a>
+        <div class="brand-logo">- Victor Smith -</div>
+        <div class="description">Web - Android - IOS</div>
+        <ul class="social">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </section>
+    
+    <section id="about" class="landingItem page">
+       <h1 class="title">About Me</h1>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 text-content">
+                <h2>Hi! i`m Victor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ad obcaecati quae sed sunt quas est nesciunt quasi, quos corporis. Incidunt reiciendis aliquid numquam eos autem commodi voluptatem minus dicta!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illo veniam recusandae dolorum quo repudiandae voluptatibus quaerat dolores et cumque!</p>
+                <div class="skills">
+                    <div class="bar">
+                        <span class="bar-caption">Photoshop</span>
+                        <div class="bar-progress bar-val-6"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="bar-caption">HTML, CSS</span>
+                        <div class="bar-progress bar-val-7"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="bar-caption">JavaScript</span>
+                        <div class="bar-progress bar-val-4"></div>
+                    </div>
+                    <div class="bar">
+                        <span class="bar-caption">PHP</span>
+                        <div class="bar-progress bar-val-6"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="parallax-container" data-parallax="scroll" data-image-src="img/about.jpg"></div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="services" class="landingItem page">
+        <h1 class="title">Services</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <div class="title">
+                            Web Design
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia sunt consectetur qui hic cumque explicabo, optio sapiente amet vitae ipsa vero ducimus unde. Excepturi harum eaque enim quisquam commodi atque.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-terminal"></i>
+                        </div>
+                        <div class="title">
+                            Coding
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nam maiores amet alias explicabo deleniti qui, neque natus quia eligendi assumenda officiis aut. Porro est ipsa repellat, itaque beatae molestias!</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <div class="title">
+                            Clean Code
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eius, quisquam aspernatur saepe, nobis praesentium culpa quod sint cum quidem et reprehenderit rerum esse eligendi sequi nemo illum molestias architecto?</p>
+                    </div> 
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-camera"></i>
+                        </div>
+                        <div class="title">
+                            Photography
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet laudantium ut impedit accusantium pariatur eveniet officiis. Iure consequatur consequuntur, eaque, impedit sapiente similique sit cumque reiciendis rerum temporibus rem dolores.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row center-xs">
+                <div class="col-lg-2">
+                    <a href="#contact" class="l-page button">Hire me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   <section id="portfolio" class="landingItem page">
+       <div class="container">
+           <h1 class="title">My Works</h1>
+           <div class="row">
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/1.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/1.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/2.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/2.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/3.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/3.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/4.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/4.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/5.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/5.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/6.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/6.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/7.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/7.png">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               
+               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                   <a class="popup" href="img/portfolio/8.jpg">
+                       <div class="polio-item">
+                           <div class="polio-img" data-image-src="img/portfolio/8.jpg">
+                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   <section id="blog" class="landingItem page">
+       <h1 class="title">My Blog</h1>
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                   <div class="blog-item">
+                       <div class="blog-thumb">
+                           <img src="img/portfolio/8.jpg" alt="">
+                       </div>
+                       <div class="blog-title">Example of article</div>
+                       <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
+                       <div class="blog-link">
+                           <a href="#" class="button read-more">Read More</a>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                   <div class="blog-item">
+                       <div class="blog-thumb">
+                           <img src="img/portfolio/8.jpg" alt="">
+                       </div>
+                       <div class="blog-title">Example of article</div>
+                       <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
+                       <div class="blog-link">
+                           <a href="#" class="button read-more">Read More</a>
+                       </div>
+                   </div>
+               </div>
+               
+               <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                   <div class="blog-item">
+                       <div class="blog-thumb">
+                           <img src="img/portfolio/8.jpg" alt="">
+                       </div>
+                       <div class="blog-title">Example of article</div>
+                       <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
+                       <div class="blog-link">
+                           <a href="#" class="button read-more">Read More</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   <section id="contact" class="landingItem page">
+      <h1 class="title">Contact Me</h1>
+      <div class="container">
+         <div class="row center-xs">
+              <div class="col-md-12 description">Please fill the form below. I will contact you as soon as
+               possible.</div>
+          </div>
+          <form action="/">
+              <div class="row center-xs center-sm">
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <div class="field">
+                          <input type="text" placeholder="Name" require>
+                      </div>
+                      <div class="field">
+                          <input type="text" placeholder="E-mail" require>
+                      </div>
+                      <div class="field">
+                          <input type="text" placeholder="Subject" require>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <div class="field">
+                          <textarea placeholder="Message" id="" cols="30" rows="10" require></textarea>
+                      </div>
+                  </div>
+              </div>
+              <div class="field submit">
+                  <button class="button">Send Message</button>
+              </div>
+          </form>
+
+      </div>
+          
+      <div class="map">
+          <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+                  <div id="map"></div>
+                 </div>
+                  <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 contact-data">
+                      <p class="location"><i class="fa fa-map-marker"></i> 223 John Adam Street, London, UK.</p>
+                      <p class="phone"><i class="fa fa-phone"></i> 800 123-456-789</p>
+                      <p class="email"><i class="fa fa-envelope"></i> your@email.com</p>
+                  </div>
+              </div>
+          </div>
+       </div>
+    </section>
+          
+    <footer class="footer">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+                    <p class="copyright">Copyright &copy; 2017</p>
+               </div>
+               <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+               </div>
+           </div>
+        </div>
+    </footer>
+       
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMYUCUdT1WkZJFkrpI4IzEObG8_YNcZPg&callback=myMap"></script>
+          
+</body>
+</html>

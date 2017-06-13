@@ -1,0 +1,62 @@
+/* BAR */
+
+.bar{
+    width: 100%;
+    background-color: #ddd;
+    height: 30px;
+}
+
+.bar .bar-progress{
+    height: inherit;
+    width: 0%;
+    background-color: #BBDEFB;
+    animation-duration: .3s;
+}
+
+.bar .bar-caption{
+    position: absolute;
+    margin: 6px 0px 0px 10px;
+    color: #666;
+}
+
+.bar .bar-val-1{
+    width: 10%;
+}
+
+.bar .bar-val-2{
+    width: 20%;
+}
+
+.bar .bar-val-3{
+    width: 30%;
+}
+
+.bar .bar-val-4{
+    width: 40%;
+}
+
+.bar .bar-val-5{
+    width: 50%;
+}
+
+.bar .bar-val-6{
+    width: 60%;
+}
+
+.bar .bar-val-7{
+    width: 70%;
+}
+
+.bar .bar-val-8{
+    width: 80%;
+}
+
+.bar .bar-val-9{
+    width: 90%;
+}
+
+.bar .bar-val-10{
+    width: 100%;
+}
+
+/* END BAR */

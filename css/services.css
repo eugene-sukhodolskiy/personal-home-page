@@ -1,0 +1,62 @@
+#services{
+    background-color: #eee;
+    padding-bottom: 40px;
+}
+
+#services h1.title{
+    background-color: white;
+}
+
+#services .container{
+    margin-top: 30px;
+}
+
+.card{
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 0 2px #ccc;
+    background-color: white;
+    transition-duration: .3s;
+}
+
+.card:hover{
+    background-color: #333;
+}
+
+.card:hover .icon{
+    color: #555;
+}
+
+.card:hover .title{
+    color: #777;
+}
+
+.card:hover p{
+    color: #ddd;
+}
+
+.card .icon{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #ddd;
+    position: relative;
+    top: 20px;
+    transition-duration: .3s;
+}
+
+.card .title{
+    padding: 15px 0;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #aaa;
+    transition-duration: .3s;
+}
+
+.card p{
+    padding: 0 15px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    color: #555;
+    transition-duration: .3s;
+}
