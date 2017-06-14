@@ -1,0 +1,43 @@
+header.header{
+    color: white;
+    background-color: #B71C1C;
+}
+
+nav.main a:hover,
+nav.main .cur{
+    background-color: #D32F2F;
+}
+
+.bar{
+    background-color: #FFEBEE;
+}
+
+.bar .bar-progress{
+    background-color: #EF9A9A;
+}
+
+.bar .bar-caption{
+    color: white;
+}
+
+.button{
+    background-color: #B71C1C;
+    color: white;
+}
+
+.button:hover{
+    background-color: #FFCDD2;
+    color: black;
+}
+
+#contact{
+    background-color: #E53935;
+}
+
+.footer{
+    background-color: #C62828;
+}
+
+.polio-item .caption{
+    background-color: #B71C1C;
+}
