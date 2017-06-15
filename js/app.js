@@ -3,7 +3,8 @@ $(document).ready(function(){
     // init 
     
     $('#home').css('height', window.innerHeight);
-    $('#home .brand-logo').css('margin-top', Math.floor(window.innerHeight / 2 - 100))
+    $('#home .brand-logo').css('margin-top', Math.floor(window.innerHeight / 2 - 150));
+    initMainNav();
     
     var pi = $('.polio-img');
     for(var i=0;i<pi.length;i++){
@@ -43,6 +44,15 @@ $(document).ready(function(){
         closeMobNav();
     });
 })
+
+var initMainNav = function(){
+    var nav = $('nav.mobile ul li');
+    var html = '';
+    for(var i=0;i<nav.length;i++){
+        html += $(nav[i]).html();
+    }
+    $('nav.main').html(html);
+}
 
 var closeMobNav = function(){
     $('nav.mobile').fadeOut(300);

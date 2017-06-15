@@ -1,5 +1,5 @@
 #services{
-    background-color: #eee;
+    background-color: #263238;
     padding-bottom: 40px;
 }
 
@@ -11,52 +11,74 @@
     margin-top: 30px;
 }
 
-.card{
+#services .card{
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 0 2px #ccc;
+    box-shadow: 0 0 2px black;
     background-color: white;
     transition-duration: .3s;
+    text-align: center;
 }
 
-.card:hover{
-    background-color: #333;
+#services .card:hover .icon{
+    color: white;
+    background-color: #263238;
 }
 
-.card:hover .icon{
-    color: #555;
-}
-
-.card:hover .title{
-    color: #777;
-}
-
-.card:hover p{
-    color: #ddd;
-}
-
-.card .icon{
+#services .card .icon{
     width: 100%;
     text-align: center;
-    font-size: 60px;
-    color: #ddd;
+    font-size: 40px;
+    color: #263238;
     position: relative;
     top: 20px;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
     transition-duration: .3s;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: transparent;
 }
 
-.card .title{
+#services .card .title{
     padding: 15px 0;
     padding-top: 30px;
     font-size: 20px;
-    color: #aaa;
+    color: #263238;
     transition-duration: .3s;
 }
 
-.card p{
+#services .card p{
     padding: 0 15px;
     padding-bottom: 20px;
     font-size: 17px;
     color: #555;
     transition-duration: .3s;
+}
+
+.hire-me{
+    margin-top: 15px;
+}
+
+.results{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.results .icon{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.results .value{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.results .description{
+    font-size: 18px;
+    margin-bottom: 20px;
 }

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/portfolio.css" type="text/css">
     <link rel="stylesheet" href="css/contact.css" type="text/css">
     <link rel="stylesheet" href="css/blog.css" type="text/css">
-    <link rel="stylesheet" href="css/style-blue-grey.css" type="text/css">
+    <link rel="stylesheet" href="css/style/style-blue-grey.css" type="text/css">
     
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/parallax.min.js"></script>
@@ -32,23 +32,18 @@
     <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},500);};</script>
     <!-- HelloPreload http://hello-site.ru/preloader/ --> 
     
-<!--
-    <div class="big-image-container">
-        <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
-        <div class="big-image" style="background-image: url('img/portfolio/2.jpg')"></div>
-    </div>
--->
   
     <header class="header">
         <button class="mob-nav"><i class="fa fa-bars"></i></button>
        <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 brand-logo">Victor Smith</div>
             <nav class="col-md-9 main">
-                <a class="l-page" href="#home">Home</a><a class="l-page" href="#about">About</a><a class="l-page" href="#services">Services</a><a class="l-page" href="#portfolio">Portfolio</a><a class="l-page" href="#blog">Blog</a><a class="l-page" href="#contact">Contact</a>
+                <!--       Automatic copy from nav.mobile         -->
             </nav>
         </div>
     </header>
     
+    <!--  Main navigation  -->
     <nav class="mobile">
         <ul>
             <li><a href="#home" class="l-page"><i class="fa fa-home"></i>Home</a></li>
@@ -70,6 +65,10 @@
             <li><a href="#"><i class="fa fa-youtube"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
         </ul>
+        <div class="btns-container">
+            <a href="#contact" class="l-page button"><i class="fa fa-envelope"></i>Contact Me</a>
+            <a href="#about" class="l-page button"><i class="fa fa-user"></i>About Me</a>
+        </div>
     </section>
     
     <section id="about" class="landingItem page">
@@ -118,7 +117,7 @@
                         <div class="title">
                             Web Design
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia sunt consectetur qui hic cumque explicabo, optio sapiente amet vitae ipsa vero ducimus unde. Excepturi harum eaque enim quisquam commodi atque.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum repellendus, dolore maiores voluptate nisi.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -129,7 +128,7 @@
                         <div class="title">
                             Coding
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nam maiores amet alias explicabo deleniti qui, neque natus quia eligendi assumenda officiis aut. Porro est ipsa repellat, itaque beatae molestias!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum repellendus, dolore maiores voluptate nisi.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -140,7 +139,7 @@
                         <div class="title">
                             Clean Code
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa eius, quisquam aspernatur saepe, nobis praesentium culpa quod sint cum quidem et reprehenderit rerum esse eligendi sequi nemo illum molestias architecto?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum repellendus, dolore maiores voluptate nisi.</p>
                     </div> 
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12">
@@ -151,15 +150,44 @@
                         <div class="title">
                             Photography
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet laudantium ut impedit accusantium pariatur eveniet officiis. Iure consequatur consequuntur, eaque, impedit sapiente similique sit cumque reiciendis rerum temporibus rem dolores.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum repellendus, dolore maiores voluptate nisi.</p>
                     </div>
                 </div>
             </div>
             
-            <div class="row center-xs">
-                <div class="col-lg-2">
-                    <a href="#contact" class="l-page button">Hire me</a>
+            <div class="row results">
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon"><i class="fa fa-clock-o"></i></div>
+                    <div class="value">1024</div>
+                    <div class="description">Hours of work</div>
                 </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon"><i class="fa fa-users"></i></div>
+                    <div class="value">64</div>
+                    <div class="description">Satisfied client</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon"><i class="fa fa-desktop"></i></div>
+                    <div class="value">96</div>
+                    <div class="description">Projects Completed</div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon"><i class="fa fa-thumbs-up"></i></div>
+                    <div class="value">24</div>
+                    <div class="description">Awards Won</div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="row center-xs">
+            <div class="col-lg-2">
+                <a href="#contact" class="l-page button hire-me">Hire me</a>
             </div>
         </div>
     </section>
@@ -172,7 +200,10 @@
                    <a class="popup" href="img/portfolio/1.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/1.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -182,7 +213,10 @@
                    <a class="popup" href="img/portfolio/2.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/2.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -192,7 +226,10 @@
                    <a class="popup" href="img/portfolio/3.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/3.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -202,7 +239,10 @@
                    <a class="popup" href="img/portfolio/4.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/4.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -212,7 +252,10 @@
                    <a class="popup" href="img/portfolio/5.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/5.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -222,7 +265,10 @@
                    <a class="popup" href="img/portfolio/6.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/6.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -232,7 +278,10 @@
                    <a class="popup" href="img/portfolio/7.png">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/7.png">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>
@@ -242,7 +291,10 @@
                    <a class="popup" href="img/portfolio/8.jpg">
                        <div class="polio-item">
                            <div class="polio-img" data-image-src="img/portfolio/8.jpg">
-                               <div class="caption"><span><i class="fa fa-search-plus"></i></span>Lorem ipsum dolor</div>
+                               <div class="caption">
+                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                                   <span class="title">Project title</span>
+                               </div>
                            </div>
                        </div>
                    </a>

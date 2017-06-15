@@ -41,3 +41,17 @@ nav.main .cur{
 .polio-item .caption{
     background-color: #B71C1C;
 }
+
+#services,
+#services .card:hover .icon{
+    background-color: #B71C1C;
+}
+
+#services .card .icon,
+#services .card .title{
+    color: #B71C1C;
+}
+
+#portfolio .polio-item .caption .icon{
+    color: #B71C1C;
+}

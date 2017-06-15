@@ -21,6 +21,16 @@
     margin-top: 20px;
 }
 
+#home .btns-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#home .btns-container .fa{
+    margin-right: 10px;
+}
+
 #home .arrow{
     color: white;
     display: block;
