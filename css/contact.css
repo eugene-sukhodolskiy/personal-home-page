@@ -1,6 +1,17 @@
 #contact{
-    background-color: #536DFE;
+    background-image: url(../img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
     color: white;
+}
+
+@media (max-width: 970px){
+    
+    #contact{
+        background-size: auto 100%;
+    }
+    
 }
 
 #contact h1.title{

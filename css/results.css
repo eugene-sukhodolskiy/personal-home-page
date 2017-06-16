@@ -1,0 +1,25 @@
+#results{
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(../img/results.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 0;
+}
+
+#results .icon{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#results .value{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+#results .description{
+    font-size: 18px;
+    margin-bottom: 20px;
+}

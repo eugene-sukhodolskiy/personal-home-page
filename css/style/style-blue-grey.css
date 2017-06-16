@@ -3,10 +3,12 @@ header.header{
     background-color: #263238;
 }
 
+/*
 nav.main a:hover,
 nav.main .cur{
     background-color: #455A64;
 }
+*/
 
 .bar{
     background-color: #ECEFF1;
@@ -30,10 +32,6 @@ nav.main .cur{
     color: black;
 }
 
-#contact{
-    background-color: #455A64;
-}
-
 .footer{
     background-color: #37474F;
 }
@@ -54,6 +52,14 @@ nav.main .cur{
 
 #portfolio .polio-item .caption .icon{
     color: #263238;
+}
+
+#blog .blog-thumb{
+    background-color: #263238;
+}
+
+#blog .fa{
+    color: #263238 !important;
 }
 
 

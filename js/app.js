@@ -1,4 +1,3 @@
-var pc = 0;
 $(document).ready(function(){
     // init 
     
@@ -11,14 +10,34 @@ $(document).ready(function(){
         $(pi[i]).css('background-image', 'url("' + $(pi[i]).attr('data-image-src') + '")');
     }
     
+    // init Isotope
+    var $grid = $('.grid').isotope({
+        itemSelector: '.polio-item',
+        percentPosition: true,
+    });
+    // filter items on button click
+    $('[data-filter]').on( 'click', function() {
+        $('[data-filter]').removeClass('active');
+        $(this).addClass('active');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+        
+        return false;
+    });
+    
     $('body').liLanding({
         topMargin:50,
         show: function(a,section){
-            $(section).addClass('show');        
-            if(pc != 0){
+            
+            if($(a).attr('href') != '#home'){
+                $('header.header').removeClass('transparent');
                 $('#home .arrow').css('opacity', 0);
+            }else{
+                $('header.header').addClass('transparent');
+                $('#home .arrow').css('opacity', 1);
             }
-            pc++;
+            
+            $(section).addClass('show');        
         }
     });
     
@@ -199,3 +218,16 @@ var mapStyle = [
         ]
     }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+

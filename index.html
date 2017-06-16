@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="css/home.css" type="text/css">
     <link rel="stylesheet" href="css/about.css" type="text/css">
     <link rel="stylesheet" href="css/services.css" type="text/css">
+    <link rel="stylesheet" href="css/results.css" type="text/css">
     <link rel="stylesheet" href="css/portfolio.css" type="text/css">
-    <link rel="stylesheet" href="css/contact.css" type="text/css">
     <link rel="stylesheet" href="css/blog.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
     <link rel="stylesheet" href="css/style/style-blue-grey.css" type="text/css">
     
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/parallax.min.js"></script>
     <script type="text/javascript" src="js/liLanding.js"></script>
     <script type="text/javascript" src="js/victor-popup.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     
 </head>
@@ -55,7 +57,7 @@
         </ul>
     </nav>
     
-    <section id="home" class="landingItem page parallax-container" data-parallax="scroll" data-image-src="img/home.jpg">
+    <section id="home" class="landingItem page">
         <a href="#about" class="l-page arrow"><i class="fa fa-long-arrow-down"></i></a>
         <div class="brand-logo">- Victor Smith -</div>
         <div class="description">Web - Android - IOS</div>
@@ -73,34 +75,36 @@
     
     <section id="about" class="landingItem page">
        <h1 class="title">About Me</h1>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 text-content">
-                <h2>Hi! i`m Victor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ad obcaecati quae sed sunt quas est nesciunt quasi, quos corporis. Incidunt reiciendis aliquid numquam eos autem commodi voluptatem minus dicta!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illo veniam recusandae dolorum quo repudiandae voluptatibus quaerat dolores et cumque!</p>
-                <div class="skills">
-                    <div class="bar">
-                        <span class="bar-caption">Photoshop</span>
-                        <div class="bar-progress bar-val-6"></div>
-                    </div>
-                    <div class="bar">
-                        <span class="bar-caption">HTML, CSS</span>
-                        <div class="bar-progress bar-val-7"></div>
-                    </div>
-                    <div class="bar">
-                        <span class="bar-caption">JavaScript</span>
-                        <div class="bar-progress bar-val-4"></div>
-                    </div>
-                    <div class="bar">
-                        <span class="bar-caption">PHP</span>
-                        <div class="bar-progress bar-val-6"></div>
+       <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="parallax-container" data-parallax="scroll" data-image-src="img/about.jpg"></div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12 text-content">
+                    <h2>Hi! i`m Victor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ad obcaecati quae sed sunt quas est nesciunt quasi, quos corporis. Incidunt reiciendis aliquid numquam eos autem commodi voluptatem minus dicta!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, illo veniam recusandae dolorum quo repudiandae voluptatibus quaerat dolores et cumque!</p>
+                    <div class="skills">
+                        <div class="bar">
+                            <span class="bar-caption">Photoshop</span>
+                            <div class="bar-progress bar-val-6"></div>
+                        </div>
+                        <div class="bar">
+                            <span class="bar-caption">HTML, CSS</span>
+                            <div class="bar-progress bar-val-7"></div>
+                        </div>
+                        <div class="bar">
+                            <span class="bar-caption">JavaScript</span>
+                            <div class="bar-progress bar-val-4"></div>
+                        </div>
+                        <div class="bar">
+                            <span class="bar-caption">PHP</span>
+                            <div class="bar-progress bar-val-6"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="parallax-container" data-parallax="scroll" data-image-src="img/about.jpg"></div>
-                
+        
             </div>
         </div>
     </section>
@@ -155,7 +159,12 @@
                 </div>
             </div>
             
-            <div class="row results">
+        </div>
+    </section>
+    
+    <section class="landingItem page" id="results">
+        <div class="container">
+            <div class="row">
 
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="icon"><i class="fa fa-clock-o"></i></div>
@@ -183,166 +192,168 @@
 
             </div>
             
-        </div>
-
-        <div class="row center-xs">
-            <div class="col-lg-2">
-                <a href="#contact" class="l-page button hire-me">Hire me</a>
+            <div class="row center-xs">
+                <div class="col-lg-2">
+                    <a href="#contact" class="l-page button hire-me">Hire me</a>
+                </div>
             </div>
+            
         </div>
     </section>
     
    <section id="portfolio" class="landingItem page">
        <div class="container">
            <h1 class="title">My Works</h1>
-           <div class="row">
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/1.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/1.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
+            <div class="filters">
+               <a href="#" class="active" data-filter="*">All</a>
+               <a href="#" data-filter=".web">Web</a>
+               <a href="#" data-filter=".photography">Photography</a>
+           </div>
+           <div class="grid">
+               <a class="popup" href="img/portfolio/1.jpg">
+                   <div class="polio-item web">
+                       <div class="polio-img" data-image-src="img/portfolio/1.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
                            </div>
                        </div>
-                   </a>
-               </div>
+                   </div>
+               </a>
                
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/2.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/2.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
+               <a class="popup" href="img/portfolio/2.jpg">
+                   <div class="polio-item">
+                       <div class="polio-img" data-image-src="img/portfolio/2.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
                            </div>
                        </div>
-                   </a>
-               </div>
+                   </div>
+               </a>
+
+               <a class="popup" href="img/portfolio/3.jpg">
+                   <div class="polio-item web">
+                       <div class="polio-img" data-image-src="img/portfolio/3.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
+                           </div>
+                       </div>
+                   </div>
+               </a>
+
+               <a class="popup" href="img/portfolio/4.jpg">
+                   <div class="polio-item web">
+                       <div class="polio-img" data-image-src="img/portfolio/4.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
+                           </div>
+                       </div>
+                   </div>
+               </a>
+
+               <a class="popup" href="img/portfolio/5.jpg">
+                   <div class="polio-item photography">
+                       <div class="polio-img" data-image-src="img/portfolio/5.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
+                           </div>
+                       </div>
+                   </div>
+               </a>
+
+               <a class="popup" href="img/portfolio/6.jpg">
+                   <div class="polio-item photography">
+                       <div class="polio-img" data-image-src="img/portfolio/6.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
+                           </div>
+                       </div>
+                   </div>
+               </a>
+
+               <a class="popup" href="img/portfolio/7.jpg">
+                   <div class="polio-item photography">
+                       <div class="polio-img" data-image-src="img/portfolio/7.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
+                           </div>
+                       </div>
+                   </div>
+               </a>
+
+               <a class="popup" href="img/portfolio/8.jpg">
+                   <div class="polio-item photography">
+                       <div class="polio-img" data-image-src="img/portfolio/8.jpg">
+                           <div class="caption">
+                               <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
+                               <span class="title">Project title</span>
+                           </div>
+                       </div>
+                   </div>
+               </a>
                
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/3.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/3.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-               
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/4.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/4.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-               
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/5.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/5.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-               
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/6.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/6.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-               
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/7.png">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/7.png">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-               
-               <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                   <a class="popup" href="img/portfolio/8.jpg">
-                       <div class="polio-item">
-                           <div class="polio-img" data-image-src="img/portfolio/8.jpg">
-                               <div class="caption">
-                                   <span class="icon"><em><i class="fa fa-search-plus"></i></em></span>
-                                   <span class="title">Project title</span>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
            </div>
        </div>
    </section>
    
    <section id="blog" class="landingItem page">
-       <h1 class="title">My Blog</h1>
+       <h1 class="title">Latest News</h1>
        <div class="container">
            <div class="row">
                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                    <div class="blog-item">
-                       <div class="blog-thumb">
-                           <img src="img/blog/1.jpg" alt="">
-                       </div>
-                       <div class="blog-title">Example of article</div>
-                       <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
-                       <div class="blog-link">
-                           <a href="#" class="button read-more">Read More</a>
-                       </div>
+                       <a href="#">
+                           <div class="blog-thumb">
+                               <span class="icon"><em><i class="fa fa-link"></i></em></span>
+                               <img src="img/blog/1.jpg" alt="">
+                           </div>
+                           <div class="blog-title">Example of article</div>
+                           <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
+                           <div class="meta">
+                               <span class="comments"><i class="fa fa-comment"></i>12</span>
+                               <span class="date"><i class="fa fa-calendar"></i>2018.11.09</span>
+                           </div>
+                       </a>
                    </div>
                </div>
                
                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                    <div class="blog-item">
-                       <div class="blog-thumb">
-                           <img src="img/blog/2.jpg" alt="">
-                       </div>
-                       <div class="blog-title">Example of article</div>
-                       <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
-                       <div class="blog-link">
-                           <a href="#" class="button read-more">Read More</a>
-                       </div>
+                       <a href="#">
+                           <div class="blog-thumb">
+                               <span class="icon"><em><i class="fa fa-link"></i></em></span>
+                               <img src="img/blog/2.jpg" alt="">
+                           </div>
+                           <div class="blog-title">Example of article</div>
+                           <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
+                           <div class="meta">
+                               <span class="comments"><i class="fa fa-comment"></i>15</span>
+                               <span class="date"><i class="fa fa-calendar"></i>2018.11.08</span>
+                           </div>
+                       </a>
                    </div>
                </div>
                
                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                    <div class="blog-item">
-                       <div class="blog-thumb">
-                           <img src="img/blog/3.jpg" alt="">
-                       </div>
-                       <div class="blog-title">Example of article</div>
-                       <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
-                       <div class="blog-link">
-                           <a href="#" class="button read-more">Read More</a>
-                       </div>
+                      <a href="#">
+                           <div class="blog-thumb">
+                               <span class="icon"><em><i class="fa fa-link"></i></em></span>
+                               <img src="img/blog/3.jpg" alt="">
+                           </div>
+                           <div class="blog-title">Example of article</div>
+                           <div class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum doloribus, maiores eum dolore architecto molestias aliquid est laborum, error delectus.</div>
+                          <div class="meta">
+                              <span class="comments"><i class="fa fa-comment"></i>57</span>
+                              <span class="date"><i class="fa fa-calendar"></i>2018.10.29</span>
+                          </div>
+                       </a>
                    </div>
                </div>
            </div>

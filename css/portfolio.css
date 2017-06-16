@@ -1,7 +1,31 @@
+#portfolio{
+    text-align: center;
+}
+
+#portfolio .filters a{
+    margin-right: 15px;
+    color: #333;
+}
+
+#portfolio .filters a:hover,
+#portfolio .filters a.active{
+    text-decoration: underline;
+}
+
+#portfolio .filters a:last-of-type{
+    margin-right: 0;
+}
+
+#portfolio .filters{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .polio-item{
-    height: 250px;
+    height: 230px;
     overflow: hidden;
     cursor: pointer;
+    width: 284px;
 }
 
 .polio-item .caption{

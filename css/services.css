@@ -28,7 +28,7 @@
 #services .card .icon{
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #263238;
     position: relative;
     top: 20px;
@@ -60,25 +60,4 @@
 
 .hire-me{
     margin-top: 15px;
-}
-
-.results{
-    color: #fff;
-    text-align: center;
-    margin: 10px 0;
-}
-
-.results .icon{
-    font-size: 40px;
-    margin-top: 20px;
-}
-
-.results .value{
-    font-size: 28px;
-    margin: 10px 0;
-}
-
-.results .description{
-    font-size: 18px;
-    margin-bottom: 20px;
 }
