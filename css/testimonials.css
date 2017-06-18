@@ -1,0 +1,101 @@
+#testimonials{
+    background-image: url(../img/testimonials.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#testimonials .container{
+    padding-top: 30px;
+}
+
+#testimonials .title{
+    color: black;
+    background-color: white;
+}
+
+#testimonials .carousel{
+    text-align: center;
+}
+
+#testimonials .carousel .slide-item{
+    height: 400px;
+    background-color: rgba(0,0,0,.5);
+}
+
+#testimonials .carousel .slick-dots{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+#testimonials .carousel .slick-dots li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#testimonials .carousel .slick-dots li:last-of-type{
+    margin-right: 0;
+}
+
+#testimonials .carousel .slick-dots li button{
+    overflow: hidden;
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    opacity: .5;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+#testimonials .carousel .slick-dots li.slick-active button,
+#testimonials .carousel .slick-dots li button:hover{
+    opacity: 1;
+}
+
+#testimonials .carousel .slide-pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    line-height: 80px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+#testimonials .carousel .slide-pic img{
+    border-radius: 100%;
+    width: inherit;
+    height: inherit;
+}
+
+#testimonials .carousel .slide-pic .fa{
+    opacity: .7;
+}
+
+#testimonials .carousel .slide-title{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#testimonials .carousel .slide-content{
+    margin-top: 15px;
+    font-size: 15px;
+    width: 80%;
+    display: inline-block;
+    max-height: 100px;
+}
+
+#testimonials .carousel .slide-sub{
+    margin-top: 15px;
+    font-size: 14px;
+    opacity: .7;
+}
+
+
+
+

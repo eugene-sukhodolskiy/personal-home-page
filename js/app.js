@@ -5,6 +5,11 @@ $(document).ready(function(){
     $('#home .brand-logo').css('margin-top', Math.floor(window.innerHeight / 2 - 150));
     initMainNav();
     
+    $('.carousel').slick({
+        dots: true,
+        arrows: false
+    });
+    
     var pi = $('.polio-img');
     for(var i=0;i<pi.length;i++){
         $(pi[i]).css('background-image', 'url("' + $(pi[i]).attr('data-image-src') + '")');
