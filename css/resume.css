@@ -1,0 +1,47 @@
+#resume .right-col{
+    border-left: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding-bottom: 30px;
+}
+
+#resume .right-col:before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: auto;
+    margin-left: -32px;
+    top: auto;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+
+#resume .right-col .date{
+    margin-left: 50px;
+    font-size: 13px;
+    color: #555;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#resume .right-col .role{
+    margin-left: 50px;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+#resume .right-col .description{
+    margin-left: 50px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    line-height: 25px;
+}
+
+#resume .left-col .company-name{
+    font-size: 20px;
+    font-weight: normal;
+}

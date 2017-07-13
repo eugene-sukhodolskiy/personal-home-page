@@ -1,25 +1,22 @@
+/* skill bar style for about block */
+
+#about .bar{
+    background-color: #CFD8DC;
+}
+
+#about .bar .bar-progress{
+    background-color: #37474F;
+}
+
+#about .bar .bar-caption{
+    color: white;
+}
+
+/* main style */
+
 header.header{
     color: white;
     background-color: #263238;
-}
-
-/*
-nav.main a:hover,
-nav.main .cur{
-    background-color: #455A64;
-}
-*/
-
-.bar{
-    background-color: #ECEFF1;
-}
-
-.bar .bar-progress{
-    background-color: #78909C;
-}
-
-.bar .bar-caption{
-    color: white;
 }
 
 .button{
@@ -32,13 +29,11 @@ nav.main .cur{
     color: black;
 }
 
-.footer{
+footer.footer{
     background-color: #37474F;
 }
 
-.polio-item .caption{
-    background-color: #263238;
-}
+/* style for services block */
 
 #services,
 #services .card:hover .icon{
@@ -50,9 +45,17 @@ nav.main .cur{
     color: #263238;
 }
 
+/* style for portfolio block */
+
+#portfolio .polio-item .caption{
+    background-color: #263238;
+}
+
 #portfolio .polio-item .caption .icon{
     color: #263238;
 }
+
+/* style for blog block */
 
 #blog .blog-thumb{
     background-color: #263238;
@@ -60,6 +63,16 @@ nav.main .cur{
 
 #blog .fa{
     color: #263238 !important;
+}
+
+/* style for resume block */
+
+#resume .right-col:before{
+    background-color: #263238;
+}
+
+#resume .right-col{
+    border-color: #263238;
 }
 
 
