@@ -8,12 +8,6 @@
     background-position: center center;
 }
 
-@media (max-width: 1100px){
-    #home{
-        background-size: auto 100%;
-    }
-}
-
 #home .brand-logo{
     width: 100%;
     text-align: center;
@@ -56,6 +50,18 @@
     animation-name: jump;
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
+}
+
+@media (max-width: 1100px){
+    #home{
+        background-size: auto 100%;
+    }
+}
+
+@media (max-device-width: 900px) and (orientation: landscape){
+    #home .arrow{
+        display: none;
+    }
 }
 
 @keyframes jump {
