@@ -15,17 +15,14 @@ $(document).ready(function(){
         $(pi[i]).css('background-image', 'url("' + $(pi[i]).attr('data-image-src') + '")');
     }
     
-    // init Isotope
-    var $grid = $('.grid').isotope({
-        itemSelector: '.polio-item',
-        percentPosition: true,
-    });
+
+    var filter = new DisplayFilter();
     // filter items on button click
     $('[data-filter]').on( 'click', function() {
         $('[data-filter]').removeClass('active');
         $(this).addClass('active');
         var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
+        filter.filter(filterValue);
         
         return false;
     });
@@ -35,10 +32,8 @@ $(document).ready(function(){
         show: function(a,section){
             
             if($(a).attr('href') != '#home'){
-                $('header.header').removeClass('transparent');
                 $('#home .arrow').css('opacity', 0);
             }else{
-                $('header.header').addClass('transparent');
                 $('#home .arrow').css('opacity', 1);
             }
             
@@ -46,8 +41,12 @@ $(document).ready(function(){
         }
     });
     
-    var VP = new VictorPopup({
-        'el': $('.popup')
+    $(document).scroll(function(e){
+        if($(document).scrollTop() > 140){
+            $('header.header').removeClass('transparent');
+        }else{
+            $('header.header').addClass('transparent');
+        }
     });
     
     $('.parallax-container').parallax();

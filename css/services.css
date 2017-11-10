@@ -14,7 +14,7 @@
 #services .card{
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 0 2px black;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,.5);
     background-color: white;
     transition-duration: .3s;
     text-align: center;

@@ -80,7 +80,7 @@
     height: 30px;
     display: inline-block;
     background-color: white;
-    line-height: 30px;
+    line-height: 32px;
     border-radius: 100%;
 }
 
@@ -90,6 +90,38 @@
     background-position: center center;
     width: 100%;
     height: 100%;
+}
+
+#portfolio a.popup{
+    float: left;
+}
+
+#portfolio .grid{
+    display: inline-block;
+}
+
+@media (max-width: 1199px){
+    #portfolio .grid{
+        width: 852px;
+    }
+}
+
+@media (max-width: 991px){
+    #portfolio .grid{
+        width: 568px;
+    }
+}
+
+@media (max-width: 991px){
+    #portfolio .grid{
+        width: 568px;
+    }
+}
+
+@media (max-width: 584px){
+    #portfolio .grid{
+        width: 284px;
+    }
 }
 
 @media (max-width: 970px){

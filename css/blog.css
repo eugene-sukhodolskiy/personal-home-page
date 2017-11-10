@@ -1,6 +1,3 @@
-.blog-item{
-}
-
 .blog-title{
     font-size: 23px;
     padding: 10px 0;
@@ -46,7 +43,7 @@
     display: inline-block;
     width: 30px;
     height: 30px;
-    line-height: 30px;
+    line-height: 33px;
     font-size: 14px;
     border-radius: 100%;
 }
@@ -73,4 +70,10 @@
 
 .blog-link{
     margin-top: 10px;
+}
+
+@media (max-width: 1199px){
+    .blog-item{
+        margin-bottom: 20px;
+    }
 }

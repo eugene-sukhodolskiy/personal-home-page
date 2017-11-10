@@ -56,3 +56,13 @@ nav.main .cur{
 #portfolio .polio-item .caption .icon{
     color: #3E2723;
 }
+
+/* style for resume block */
+
+#resume .right-col:before{
+    background-color: #3E2723;
+}
+
+#resume .right-col{
+    border-color: #3E2723;
+}

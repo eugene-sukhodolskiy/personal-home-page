@@ -1,0 +1,57 @@
+header.header,
+.button,
+.polio-item .caption,
+#services,
+#services .card:hover .icon,
+#blog .blog-thumb,
+#resume .right-col:before,
+.button:hover{
+    background-color: #E91E63; /* main color */
+}
+
+#resume .right-col{
+    border-color: #E91E63; /* main color */
+}
+
+#services .card .icon,
+#services .card .title,
+#portfolio .polio-item .caption .icon,
+.contact-data .fa,
+#results,
+.social li a:hover,
+.button{
+    color: #E91E63; /* main color */
+}
+
+.button{
+    background-color: white;
+}
+
+.button:hover{
+    color: white;
+}
+
+#blog .fa{
+    color: #E91E63 !important;
+}
+
+#results .row:first-of-type > div{
+    background-color: rgba(255,255,255,.8);
+}
+
+header.header,
+.bar .bar-caption{
+    color: white;
+}
+
+.bar{
+    background-color: #F8BBD0;
+}
+
+.bar .bar-progress{
+    background-color: #EC407A;
+}
+
+.footer{
+    background-color: #D81B60;
+}

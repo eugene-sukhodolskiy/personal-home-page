@@ -1,11 +1,32 @@
-header.header{
-    color: white;
-    background-color: #B71C1C;
+header.header,
+.button,
+.polio-item .caption,
+#services,
+#services .card:hover .icon,
+#blog .blog-thumb,
+#resume .right-col:before{
+    background-color: #B71C1C; /* main color */
 }
 
-nav.main a:hover,
-nav.main .cur{
-    background-color: #D32F2F;
+#resume .right-col{
+    border-color: #B71C1C; /* main color */
+}
+
+#services .card .icon,
+#services .card .title,
+#portfolio .polio-item .caption .icon,
+.contact-data .fa{
+    color: #B71C1C; /* main color */
+}
+
+#blog .fa{
+    color: #B71C1C !important;
+}
+
+header.header,
+.button,
+.bar .bar-caption{
+    color: white;
 }
 
 .bar{
@@ -16,42 +37,11 @@ nav.main .cur{
     background-color: #EF9A9A;
 }
 
-.bar .bar-caption{
-    color: white;
-}
-
-.button{
-    background-color: #B71C1C;
-    color: white;
-}
-
 .button:hover{
     background-color: #FFCDD2;
     color: black;
 }
 
-#contact{
-    background-color: #E53935;
-}
-
 .footer{
     background-color: #C62828;
-}
-
-.polio-item .caption{
-    background-color: #B71C1C;
-}
-
-#services,
-#services .card:hover .icon{
-    background-color: #B71C1C;
-}
-
-#services .card .icon,
-#services .card .title{
-    color: #B71C1C;
-}
-
-#portfolio .polio-item .caption .icon{
-    color: #B71C1C;
 }

@@ -45,3 +45,30 @@
     font-size: 20px;
     font-weight: normal;
 }
+
+@media (max-width: 1199px){
+    #resume .right-col{
+        border: 0;
+    }
+    
+    #resume .right-col:before{
+        display: none;
+    }
+    
+    #resume .left-col .company-name{
+        position: relative;
+        left: 50px;
+    }
+}
+
+@media (max-width: 900px){
+    #resume .right-col .description{
+        width: 90%;
+    }
+}
+
+@media (max-width: 760px){
+    #resume .right-col .description{
+        width: 80%;
+    }
+}
